@@ -1,24 +1,24 @@
 # Questões Feitas Frequentemente {#frequently-asked-questions}
 
-## Who maintains Vue? {#who-maintains-vue}
+## Quem mantém a Vue? {#who-maintains-vue}
 
-Vue is an independent, community-driven project. It was created by [Evan You](https://twitter.com/youyuxi) in 2014 as a personal side project. Today, Vue is actively maintained by [a team of both full-time and volunteer members from all around the world](/about/team), where Evan serves as the project lead. You can learn more about the story of Vue in this [documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI).
+Vue é um projeto independente e voltado para a comunidade. Foi criada por [Evan You](https://twitter.com/youyuxi) em 2014 como um projeto paralelo pessoal. Hoje, a Vue é mantida ativamente por [uma equipa de membros em tempo integral e voluntários de todo o mundo](/about/team), em que Evan atua como o líder do projeto. Tu podes aprender mais sobre a história da Vue neste [documentário](https://www.youtube.com/watch?v=OrxmtDw4pVI).
 
-Vue's development is primarily funded through sponsorships and we have been financially sustainable since 2016. If you or your business benefit from Vue, consider [sponsoring us](/sponsor/) to support Vue's development!
+O desenvolvimento da Vue é financiado principalmente por meio de patrocínios. Se tu ou tua empresa se beneficiam da Vue, considere [nos patrocinar](/sponsor/) para apoiar o desenvolvimento da Vue!
 
-## What's the difference between Vue 2 and Vue 3? {#what-s-the-difference-between-vue-2-and-vue-3}
+## Qual a diferença entre a Vue 2 e a Vue 3? {#what-s-the-difference-between-vue-2-and-vue-3}
 
-Vue 3 is the current, latest major version of Vue. It contains new features that are not present in Vue 2, such as Teleport, Suspense, and multiple root elements per template. It also contains breaking changes that make it incompatible with Vue 2. Full details are documented in the [Vue 3 Migration Guide](https://v3-migration.vuejs.org/).
+Vue 3 é a versão principal atual, mais recente da Vue. Ela contém novos recursos que não estão na Vue 2, como Teleport, Suspense, and múltiplos elementos root por template. Ela também tem mudanças importantes que a tornam imcompatível com a Vue2. Os Detalhes completos estão documentados no [Guia da migração para a Vue 3](https://v3-migration.vuejs.org/).
 
-Despite the differences, the majority of Vue APIs are shared between the two major versions, so most of your Vue 2 knowledge will continue to work in Vue 3. Notably, Composition API was originally a Vue-3-only feature, but has now been backported to Vue 2 and is available in [Vue 2.7](https://github.com/vuejs/vue/blob/main/CHANGELOG.md#270-2022-07-01).
+Apesar das diferenças, a maioria das APIs da Vue são compartilhadas entre as duas principais versões, então a maioria do seu conhecimento da Vue 2 vai continuar a funcionar na Vue 2. Notavelmente, a API de Composição era originalmente um recurso da Vue 3 apenas, mas agora foi portada para a Vue 2 e está disponível na [Vue 2.7](https://github.com/vuejs/vue/blob/main/CHANGELOG.md#270-2022-07-01).
 
-In general, Vue 3 provides smaller bundle sizes, better performance, better scalability, and better TypeScript / IDE support. If you are starting a new project today, Vue 3 is the recommended choice. There are only a few reasons for you to consider Vue 2 as of now:
+Em geral, a Vue 3 fornece tamanhos de pacotes menores, melhor desempenho, melhor escalabilidade, e um maior suporte a IDEs e TypeScript. Se tu estás a iniciar um novo projeto hoje, a Vue 3 é a escolha recomendada. Existem apenas algumas razões para tu considerar a Vue 2 atualmente:
 
-- You need to support IE11. Vue 3 leverages modern JavaScript features and does not support IE11.
+- Tu precisas dar suporte à IE11. A Vue 3 faz uso de recursos modernos de JavaScript e não oferece suporte à IE11.
 
-- You are still waiting for major ecosystem projects like Nuxt or Vuetify to release stable versions for Vue 3. This is reasonable if you do not wish to use beta-stage software. However, do note there are other already stable Vue 3 component libraries such as [Quasar](https://quasar.dev/), [Naive UI](https://www.naiveui.com/) and [Element Plus](https://element-plus.org/).
+- tu estás esperando os principais projetos de ecossistema, como Nuxt ou Vuetify, lançarem versões estáveis para a Vue 3. Isso é razoável se tu não desejas fazer uso de software em estágio beta. Porém, note que existem outras bibliotecas de componentes para a Vue 3 já estáveis, como [Quasar](https://quasar.dev/), [Naive UI](https://www.naiveui.com/) e [Element Plus](https://element-plus.org/).
 
-If you intend to migrate an existing Vue 2 app to Vue 3, consult the [migration guide](https://v3-migration.vuejs.org/).
+Se tu pretendes migrar uma aplicação existente da Vue 2 para a Vue 3, consulte o [guia de migração](https://v3-migration.vuejs.org/).
 
 ## Is Vue 2 Still Supported? {#is-vue-2-still-supported}
 
